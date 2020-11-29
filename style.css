@@ -1,4 +1,134 @@
-img {
-    width: 500px;
-    height: 500px;
+/* 
+font-family: 'Londrina Solid', cursive; 
+Weights: 300, 400, 900)
+*/
+
+:root {
+    --space-cadet: #2A273C;
+    --firebrick: #AC2E22;
+    --windsor-tan: #AA5900;
+    --royal-purple: #734EB8;
+    --wisteria: #BA9DDC;
+    --pacific-blue: #40A0B6;
+    --space-cadet-2: #1B2F60;
+    --misty-moss: #B1B875;
+}
+
+/* Global Styles  */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    /* background-image: url('https://previews.123rf.com/images/skathi/skathi1610/skathi161000104/63637431-vector-hand-drawn-pop-art-monochrome-fast-food-pattern-illustration-of-burger-chicken-legs-and-hot-d.jpg');
+    background-attachment: fixed;
+    background-size: 50%; */
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Londrina Solid';
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+h3 {
+    font-weight: 400;
+}
+
+p {
+    line-height: 1.5;
+    font-size: 1.125rem;
+}
+
+li {
+    margin: 1% auto;
+}
+
+/* Accents */
+
+.accent1 {
+    background-color: var(--pacific-blue);
+}
+
+.accent2 {
+    background-color: var(--windsor-tan);
+}
+
+/* Header Styles  */
+
+.title {
+    margin: 0;
+    padding: 0.5em;
+    text-align: center;
+}
+
+.stroke {
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: var(--misty-moss);
+    -webkit-text-fill-color: var(--pacific-blue);
+    letter-spacing: 6px;
+}
+
+/* Container */
+
+.section-container {
+    padding: 1em;
+}
+
+.center {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Image Div Styles  */
+
+.img-caption {
+    color: white;
+    padding: 1em;
+}
+
+/* Tribute Styles  */
+
+
+/* Meet the Gang Styles  */
+
+
+.profile {
+    display: flex;
+    margin: 1em;
+    background-color: #D1ECEA;
+}
+
+.profile-img-container{
+    width: 25px;
+}
+
+.profile-pic {
+    max-width: 10em;
+    height: 10em;
+    padding: 1em;
+}
+
+.profile-content {
+    padding: 1em;
+}
+
+
+/* Footer Styles  */
+
+footer {
+    text-align: center;
+    margin: 0;
 }
